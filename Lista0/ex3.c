@@ -75,7 +75,7 @@ int main(){
     printf("\n");
     if(altura != -1){
         printf("Altura: %d\n", altura);
-        printf("Para arvore ser estrita: %.0lf\n", pow(2, altura));
+        printf("Para arvore ser completa: %.0lf\n", pow(2, altura));
     }
 
     return 0;
