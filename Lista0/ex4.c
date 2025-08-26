@@ -67,9 +67,9 @@ int main(){
     int nos = contando_nos(arvore);
     
     if((int)pow(2, altura+1)-1 == nos)
-        printf("Arvore estrita\n");
+        printf("Arvore completa\n");
     else
-        printf("Nao estrita\n");
+        printf("Nao completa\n");
 
     return 0;
 }
